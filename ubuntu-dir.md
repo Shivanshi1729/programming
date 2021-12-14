@@ -1,0 +1,68 @@
+# Ubuntu 
+
+## Directory Structure
+
+- `bin`
+  - symlink to `/usr/bin`
+  - contains binaries and executables that are essential to the entire os
+  - run these form the command line
+  - `ls` `gzip` `curl`
+- `sbin`
+  - symlink to `/usr/sbin`
+  - contain system binaries that can only be run by the root (super) user
+  - `mount` `deluser`
+- `lib`
+  - symlink to `/use/lib`
+  - common libraries shared by the binaries
+- `usr`
+  - `bin`
+    - user binaries
+    - not essential to the os
+  - `sbin`
+  - `local`
+    - `bin`
+      - local binaries that you compiles manually
+      - to provide a safe place that won't conflict 
+      - with the packages installed by the system package manger
+- `etc`
+  - editable text config
+  - for configuration files
+- `home` 
+  - for the users
+  - home directory of every user is in this folder
+- `boot`
+  - files needed to boot the system 
+  - like the linux kernel
+- `dev`
+  - device files
+  - hardware as files
+- `opt`
+  - optional and addon softwares
+- `var`
+  - variables files
+  - will change as os is being used
+- `tmp`
+  - temporary files
+- `proc`
+  - doesn't exists on the disk
+  - created while booting
+  - keep track of running processes
+  - since everything is a files philosophy
+- `lib32`
+  - symlink to `/usr/lib32`
+- `libx32`
+  - symlink to `/usr/libx32`
+- `lib64`
+  - symlink to `/usr/lib64`
+- `media`
+  - for mounted storage
+- `root`
+  - root user config files, and home directory
+- `mnt`
+  - mounted external storage
+- `snap`
+  - snap package manager
+- `run`
+- `srv`
+- `sys`
+- `lost+found`
