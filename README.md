@@ -111,3 +111,17 @@
 
 - use `nvm` node version manger to install node
   - [https://github.com/nvm-sh/nvm](https://github.com/nvm-sh/nvm)
+
+
+# Lua
+
+## Ubuntu
+
+- compiler - `lua`
+  - three versions are available
+  - `sudo apt install lua5.1`
+
+## Packages
+
+- `luarocks`
+  - [https://luarocks.org/](https://luarocks.org/)
