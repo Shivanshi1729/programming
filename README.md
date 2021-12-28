@@ -85,7 +85,7 @@
 - built `sbt`
   - `sudo apt install sbt`
 
-# Ruby
+# [Ruby](./src/ruby.md)
 
 ## Ubuntu
 
@@ -113,7 +113,7 @@
   - [https://github.com/nvm-sh/nvm](https://github.com/nvm-sh/nvm)
 
 
-# Lua
+# [Lua](./src/lua.md)
 
 ## Ubuntu
 
