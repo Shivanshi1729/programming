@@ -9,6 +9,8 @@
 - build - `make`
   - `sudo apt install make`
 
+---
+
 # C++
 
 ## Ubuntu
@@ -17,6 +19,8 @@
   - `sudo apt instal build-essential`
 - build - `cmake`
   - `sudo apt install cmake`
+
+---
 
 # Java
 
@@ -27,6 +31,8 @@
 - build - `apache ant` `apache maven` `gradle`
   - `apache maven`
     - `sudo apt install mvn`
+
+---
 
 # Python
 
@@ -56,6 +62,7 @@
 - install the packages with `pip` in the user directory 
   - `pip install pkgname --user`
 
+---
 
 # R
 
@@ -67,6 +74,8 @@
   - from The Comprehensive R Archive Network (`CRAN`)
     - `install.packages("pkgname")`
 
+---
+
 # Julia
 
 ## Ubuntu
@@ -76,6 +85,8 @@
 - packages
   - `pkg` built in julia
 
+---
+
 # Scala
 
 ## Ubuntu
@@ -84,6 +95,8 @@
   - `sudo apt install scala`
 - built `sbt`
   - `sudo apt install sbt`
+
+---
 
 # [Ruby](./src/ruby.md)
 
@@ -97,6 +110,8 @@
     - `export GEM_HOME=$HOME/.gem`
     - `export GEM_PATH=$HOME/.gem`
 
+---
+
 # Rust
 
 ## Ubuntu
@@ -105,6 +120,8 @@
   - `rustup` - installer for ruby, installs the latest version of ruby
   - [https://rustup.rs/](https://rustup.rs/)
 
+---
+
 # Node
 
 ## Ubuntu
@@ -112,6 +129,7 @@
 - use `nvm` node version manger to install node
   - [https://github.com/nvm-sh/nvm](https://github.com/nvm-sh/nvm)
 
+---
 
 # [Lua](./src/lua.md)
 
